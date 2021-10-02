@@ -91,7 +91,6 @@ defaults:
       type: posts
     values:
       layout: single
-      show_date: true
       read_time: true
       comments: true
       related: true
