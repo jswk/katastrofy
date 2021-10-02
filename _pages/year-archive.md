@@ -1,5 +1,5 @@
 ---
-title: "Posts by Year"
+title: "Posty wg lat"
 permalink: /posts/
 layout: posts
 ---
