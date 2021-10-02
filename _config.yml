@@ -27,6 +27,7 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
+date_format: YYYY-MM-DD
 timezone: Europe/Warsaw # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 locale: pl-PL
 
@@ -91,6 +92,7 @@ defaults:
       type: posts
     values:
       layout: single
+      show_date: true
       read_time: true
       comments: true
       related: true
