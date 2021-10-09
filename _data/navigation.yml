@@ -1,9 +1,14 @@
 main:
   - title: "Posty"
     url: /posts/
-  - title: "Kategorie"
-    url: /categories/
+  - title: "Aktualności"
+    url: /news/
+  - title: "Artykuły"
+    url: /articles/
+  - title: " Adaptacja"
+    url: /adaptation/
   - title: "Tagi"
     url: /tags/
   - title: "O nas"
     url: /about/
+    
