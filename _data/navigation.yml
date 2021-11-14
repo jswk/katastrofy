@@ -1,14 +1,12 @@
 main:
-  - title: "Posty"
-    url: /posts/
   - title: "Aktualności"
-    url: /news/
+    url: /posts/
   - title: "Artykuły"
     url: /articles/
-  - title: " Adaptacja"
+  - title: "Adaptacja"
     url: /adaptation/
   - title: "Tagi"
     url: /tags/
   - title: "O nas"
     url: /about/
-    
+

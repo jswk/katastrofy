@@ -17,7 +17,7 @@ title: Katastrofy
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blog o katastrofach.
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -85,6 +85,14 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:path/
+  adaptation:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -102,6 +110,28 @@ defaults:
       type: pages
     values:
       layout: single
+
+  # _articles
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: single
+      show_date: true
+      read_time: true
+      comments: true
+      related: true
+
+  # _adaptation
+  - scope:
+      path: ""
+      type: adaptation
+    values:
+      layout: single
+      show_date: true
+      read_time: true
+      comments: true
+      related: true
 
 category_archive:
   type: liquid
