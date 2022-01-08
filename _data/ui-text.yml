@@ -1114,6 +1114,10 @@ pl: &DEFAULT_PL
   loading_label              : "Trwa ładowanie strony..."
   search_label_text          :
   search_algolia_no_results  : "Brak wyników"
+
+  search_placeholder_text    : "Wyszukaj na stronie..."
+  results_found              : "wynik(i/ów)"
+  back_to_top                : "Powrót do góry"
 pl-PL:
   <<: *DEFAULT_PL
 
