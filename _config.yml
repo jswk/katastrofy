@@ -93,6 +93,9 @@ collections:
   adaptation:
     output: true
     permalink: /:collection/:path/
+  drafts:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -128,6 +131,18 @@ defaults:
       path: ""
       type: adaptation
     values:
+      layout: single
+      show_date: true
+      read_time: true
+      comments: true
+      related: true
+
+  # _drafts
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      search: false
       layout: single
       show_date: true
       read_time: true
